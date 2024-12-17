@@ -95,3 +95,4 @@ tmp/
 
 # Ignore Drupal core files if managing dependencies with Composer
 /core/
+sites/default/default.settings.php

@@ -1,0 +1,14 @@
+[21-Nov-2024 18:25:51 UTC] TypeError: array_pop(): Argument #1 ($array) must be of type array, false given in /home/zqkpu3b894o0/public_html/core/modules/system/src/Controller/DbUpdateController.php on line 437 #0 /home/zqkpu3b894o0/public_html/core/modules/system/src/Controller/DbUpdateController.php(437): array_pop()
+#1 /home/zqkpu3b894o0/public_html/core/modules/system/src/Controller/DbUpdateController.php(193): Drupal\system\Controller\DbUpdateController->results()
+#2 [internal function]: Drupal\system\Controller\DbUpdateController->handle()
+#3 /home/zqkpu3b894o0/public_html/core/lib/Drupal/Core/Update/UpdateKernel.php(115): call_user_func_array()
+#4 /home/zqkpu3b894o0/public_html/core/lib/Drupal/Core/Update/UpdateKernel.php(76): Drupal\Core\Update\UpdateKernel->handleRaw()
+#5 /home/zqkpu3b894o0/public_html/update.php(27): Drupal\Core\Update\UpdateKernel->handle()
+#6 {main}
+[23-Nov-2024 21:25:20 UTC] TypeError: array_pop(): Argument #1 ($array) must be of type array, false given in /home/zqkpu3b894o0/public_html/core/modules/system/src/Controller/DbUpdateController.php on line 437 #0 /home/zqkpu3b894o0/public_html/core/modules/system/src/Controller/DbUpdateController.php(437): array_pop()
+#1 /home/zqkpu3b894o0/public_html/core/modules/system/src/Controller/DbUpdateController.php(193): Drupal\system\Controller\DbUpdateController->results()
+#2 [internal function]: Drupal\system\Controller\DbUpdateController->handle()
+#3 /home/zqkpu3b894o0/public_html/core/lib/Drupal/Core/Update/UpdateKernel.php(115): call_user_func_array()
+#4 /home/zqkpu3b894o0/public_html/core/lib/Drupal/Core/Update/UpdateKernel.php(76): Drupal\Core\Update\UpdateKernel->handleRaw()
+#5 /home/zqkpu3b894o0/public_html/update.php(27): Drupal\Core\Update\UpdateKernel->handle()
+#6 {main}
