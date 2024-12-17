@@ -60,3 +60,38 @@
 /drush
 /drupal.phar
 /drupal
+
+
+# Ignore the files directory
+/sites/default/files/
+
+# Ignore configuration files
+/sites/default/settings.php
+/sites/default/settings.local.php
+
+# Ignore the vendor directory (if using Composer)
+vendor/
+
+# Ignore Composer lock file
+composer.lock
+
+# Ignore temporary files
+tmp/
+*.tmp
+
+# Ignore IDE and editor specific files
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.vscode/
+
+# Ignore logs
+*.log
+
+# Ignore backup files
+*~
+*.bak
+*.orig
+
+# Ignore Drupal core files if managing dependencies with Composer
+/core/
