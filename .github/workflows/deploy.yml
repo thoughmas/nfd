@@ -1,0 +1,25 @@
+name: Deploy to GoDaddy
+
+on:
+  push:
+    branches: [master]
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - uses: actions/checkout@v2
+    
+    - name: Deploy to GoDaddy
+      uses: appleboy/ssh-action@master
+      with:
+        username: ${{ secrets.GODADDY_USERNAME }}
+        password: ${{ secrets.GODADDY_PASSWORD }}
+        host: ${{ secrets.GODADDY_HOST }}
+        port: ${{ secrets.GODADDY_PORT }}
+        script: |
+          cd /home/zqkpu3b894o0/public_html
+          git pull origin master
+          # Add any additional deployment steps, such as building your project
+        run: echo This was run!
